@@ -34,7 +34,6 @@ export async function GET() {
   }
 }
 
-export default {
-  POST,
-  GET
-}
+const methods = ['POST', 'GET']
+
+export default methods
